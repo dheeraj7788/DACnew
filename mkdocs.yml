@@ -1,0 +1,8 @@
+site_name: MyDocSite
+site_description: This is documentation site
+site_author: Dheeraj
+
+theme: material
+
+nav:
+  - Home: index.md
