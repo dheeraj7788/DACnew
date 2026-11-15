@@ -1,7 +1,7 @@
 # Welcome to DOcumentation Site
 
 ## User Guide
-![Computer](Images/computer.jfif)
+![Computer](images/computer.jfif)
 ### User Guide1
 [User guide 1](User-Guide1.md)
 ### User Guide2
