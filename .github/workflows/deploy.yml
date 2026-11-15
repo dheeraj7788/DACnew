@@ -1,0 +1,19 @@
+name: Deploy Docs
+
+on:
+  push:
+   branches:
+     -main
+
+jobs:
+   deploy:
+   runs-on: ubuntu-latest
+   
+steps:
+  -uses: actions/checkout@4
+  
+  -runs: pip install mkdocs
+
+ -runs: pip install mkdocs material
+
+ -runs: mkdocs serve
